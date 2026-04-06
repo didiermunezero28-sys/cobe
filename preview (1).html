@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COBE | Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #38bdf8;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>COBE</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Hello, I'm Cobe 👋</h2>
+  <p>Frontend Developer | Building modern web experiences</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am passionate about creating clean and modern websites using HTML, CSS and JavaScript.</p>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="projects">
+
+    <div class="card">
+      <h3>E-commerce Website</h3>
+      <p>Online shop with cart and checkout system.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio with responsive design.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Weather App</h3>
+      <p>App that shows real-time weather data using API.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Blog Platform</h3>
+      <p>Simple blog system with posts and comments.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: didiermunezero28@gmail.com</p>
+  <p>WhatsApp: <a href="https://wa.me/7028644952" style="color:#38bdf8;">Chat Me</a></p>
+</section>
+
+<footer>
+  <p>© 2026 COBE | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
